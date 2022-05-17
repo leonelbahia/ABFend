@@ -1,0 +1,135 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php?sectionRouter=$1
+#RewriteRule ^([a-zA-Z0-9nÑ-]+)$ index.php?sectionRouter=$1
+
+
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php5_module>
+   php_flag asp_tags Off
+   php_flag display_errors Off
+   php_value max_execution_time 900
+   php_value max_input_time -1
+   php_value max_input_vars 1000
+   php_value memory_limit 512M
+   php_value post_max_size 128M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/tmp"
+   php_value upload_max_filesize 1G
+   php_flag zlib.output_compression On
+</IfModule>
+<IfModule lsapi_module>
+   php_flag asp_tags Off
+   php_flag display_errors Off
+   php_value max_execution_time 900
+   php_value max_input_time -1
+   php_value max_input_vars 1000
+   php_value memory_limit 512M
+   php_value post_max_size 128M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/tmp"
+   php_value upload_max_filesize 1G
+   php_flag zlib.output_compression On
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+
+
+deny from 94.23.255.34
+deny from 94.23.208.210
+deny from 192.99.35.63
+deny from 201.216.253.75
+deny from 37.0.10.82
+deny from 100.26.249.16
+deny from 144.126.221.159
+deny from 18.207.140.108
+deny from 52.146.13.204
+deny from 34.224.3.205
+deny from 34.238.191.172
+deny from 3.238.92.201
+deny from 45.15.143.183
+deny from 46.119.126.245
+deny from 212.129.152.41
+deny from 185.53.89.191
+deny from 180.215.120.62
+deny from 175.44.42.160
+deny from 40.117.100.8
+deny from 54.36.148.210
+deny from 103.243.24.79
+deny from 49.234.43.244
+deny from 54.36.148.52
+deny from 167.71.212.112
+deny from 186.64.114.20
+deny from 189.222.120.33
+deny from 173.252.95.4
+deny from 37.0.11.67
+deny from 180.215.120.64
+deny from 173.209.57.149
+deny from 43.252.229.250
+deny from 193.23.3.16
+deny from 3.84.102.235
+deny from 135.181.3.99
+deny from 179.108.192.148
+deny from 103.229.124.172
+deny from 103.85.22.195
+deny from 45.186.145.91
+deny from 43.252.230.85
+deny from 20.191.87.155
+deny from 23.228.109.147
+deny from 169.38.68.188
+deny from 18.142.137.29
+deny from 34.133.139.28
+deny from 20.51.186.1
+deny from 154.23.190.16
+deny from 176.113.115.10
+deny from 140.213.74.251
+deny from 77.111.247.108
+deny from 77.111.247.169
+deny from 77.111.247.182
+deny from 77.111.247.184
+deny from 77.111.247.187
+deny from 77.111.247.191
+deny from 77.111.247.196
+deny from 77.111.247.206
+deny from 77.111.247.22
+deny from 77.111.247.250
+deny from 77.111.247.39
+deny from 77.111.247.4
+deny from 77.111.247.43
+deny from 77.111.247.59
+deny from 77.111.247.65
+deny from 77.111.247.7
+deny from 77.111.247.75
+deny from 77.111.247.82
+deny from 77.111.247.90
+deny from 45.8.227.175
+deny from 212.90.39.68
+deny from 37.187.110.9
+deny from 150.136.230.141
+deny from 176.122.25.12
+deny from 20.82.139.172
+deny from 161.35.187.225
+deny from 143.198.204.243
+deny from 178.62.243.197
+deny from 159.223.36.173
+deny from 51.140.68.179
+deny from 34.124.241.118
+deny from 196.196.203.213
+deny from 20.110.246.146
+deny from 104.248.158.130
+deny from 3.84.23.4
+deny from 40.121.16.186
+deny from 194.38.20.161
+deny from 51.77.249.203
+deny from 20.101.106.180
+deny from 74.208.227.128
+deny from 20.121.2.236
+deny from 2.58.149.35
+deny from 20.63.222.45
