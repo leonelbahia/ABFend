@@ -1,2 +1,2 @@
 # ADVERTENCIA
-No incluir esta carpeta en el proyecto público en producción.
+No incluir esta carpeta (OS) en el proyecto público en producción.
