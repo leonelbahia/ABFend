@@ -1,5 +1,10 @@
 <?php
 require ('./BackEnd/Init.php');
 use Init\init as router;
-router::in('/', '', 'index');
+
+switch ($sectionRouter) {
+    case "docs": router::in('', ['head', 'docs', 'foot']); break;
+    default: router::in('', ['index']); break;
+}
+
 ?>
